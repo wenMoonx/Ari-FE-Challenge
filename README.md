@@ -7,12 +7,12 @@ Welcome to the Frontend Assessment for Sixteen life! This assessment is designed
 
 First clone the repository on your local machine
 
-## Stack
+## Tech Stack
 
-Next.js 14.1.0
-React 18
-TailwindCss 3.3.0
-Typescript 5
+Next.js 14.1.0 <br>
+React 18 <br>
+TailwindCss 3.3.0 <br>
+Typescript 5 <br>
 
 ```bash
 git clone https://github.com/wenMoonx/Ari-FE-Challenge.git
