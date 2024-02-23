@@ -1,4 +1,4 @@
-![image](https://github.com/wenMoonx/Ari-FE-Challenge/assets/112678484/1bf15d68-bb43-4f3c-b932-f105dd553c13)# Ari-FE-Challenge
+# Ari-FE-Challenge
 
 ## Overview
 Welcome to the Frontend Assessment for Sixteen life! This assessment is designed to evaluate my frontend development skills and problem-solving abilities. Below, you will find detailed instructions on the assessment tasks and guidelines for submission.
