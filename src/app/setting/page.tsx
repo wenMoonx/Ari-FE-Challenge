@@ -35,7 +35,7 @@ export default function Setting() {
 
   const employeeCounts = ["1-10", "10-100", "100-500", "1000+"];
   const toggleGroupItemClasses =
-    "rounded-full border border-black border-opacity-50 data-[state=on]:bg-black data-[state=on]:text-white m-1 mt-3 text-[14px]";
+    "rounded-full border border-[#17171F] border-opacity-10 data-[state=on]:bg-black data-[state=on]:text-white m-1 mt-3 text-[14px]";
   return (
     <>
       <div className='flex'>
@@ -45,21 +45,21 @@ export default function Setting() {
       </div>
 
       <div className='mt-10 flex'>
-        <Tabs defaultValue='company_info' className='w-full sm:w-[400px]'>
-          <TabsList className='w-full sm:w-auto'>
-            <TabsTrigger className='w-full sm:w-auto' value='profile'>
+        <Tabs defaultValue='company_info' className='w-full overflow-x-auto'>
+          <TabsList className='sm:w-auto'>
+            <TabsTrigger className='sm:w-auto' value='profile'>
               Your Profile
             </TabsTrigger>
-            <TabsTrigger className='w-full sm:w-auto' value='company_info'>
+            <TabsTrigger className='sm:w-auto' value='company_info'>
               Company Info
             </TabsTrigger>
-            <TabsTrigger className='w-full sm:w-auto' value='manange_seats'>
+            <TabsTrigger className='sm:w-auto' value='manange_seats'>
               Manage Seats
             </TabsTrigger>
-            <TabsTrigger className='hidden sm:block' value='do_not_contact'>
+            <TabsTrigger className='sm:w-auto' value='do_not_contact'>
               Do not Contact
             </TabsTrigger>
-            <TabsTrigger className='hidden sm:block' value='integraions'>
+            <TabsTrigger className='sm:w-auto' value='integraions'>
               Integrations
             </TabsTrigger>
           </TabsList>
@@ -81,7 +81,7 @@ export default function Setting() {
 
               <div className='flex flex-col justify-between gap-4'>
                 <div className='flex gap-4'>
-                  <Button variant='secondary'>Remove</Button>
+                  <Button variant='secondary' size="default">Remove</Button>
                   <Button variant='outline'>Chagne Photo</Button>
                 </div>
 

@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <header className='h-[100px]'></header>
-        <div className='m-auto max-w-[1200px] px-20 py-5'>{children}</div>
+        <div className='m-auto max-w-[1200px] px-6 sm:px-20 py-5'>{children}</div>
       </body>
     </html>
   );
